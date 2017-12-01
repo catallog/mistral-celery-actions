@@ -1,7 +1,7 @@
-# mistral-celery-actions
+# Mistral Celery Actions
 
 
-### Install
+### Installation
 
 First of all, clone the repo and go to the repo directory:
 
@@ -42,7 +42,7 @@ result_serializer = json
 
 Call celery sync task:
 
-    action: celery-sync-task
+    action: celery.sync-task
     input:
       task_name: 'task.my_custom_task'
       params: 
@@ -51,10 +51,16 @@ Call celery sync task:
 
 Call celery async task:
 
-    action: celery-async-task
+    action: celery.async-task
     input:
       task_name: 'task.my_custom_async_task'
       params:
         task_param1: "Weeeeeeeeeeeee"
         task_param2: ...
         ....
+
+
+Useful Links
+============
+
+* `Mistral`_ <https://github.com/openstack/mistral>
