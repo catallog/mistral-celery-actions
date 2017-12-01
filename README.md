@@ -14,7 +14,7 @@ Local installation:
 
 
   ```.bash
-    pip install -e .
+    pip install mistral-celery-actions
   ```
 
 Then we need to tell Mistral about them
