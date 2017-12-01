@@ -1,0 +1,15 @@
+CHANGES
+=======
+
+1.0.1
+-----
+
+* fix: properties setup to install
+
+1.0.0
+-----
+
+* feat: LICENSE and update setup
+* First actions: celery-sync-task= Execute the task and wait for the result. celery-async-task=Execute an async task. setup and readme
+* First commit
+* Initial commit
